@@ -1,0 +1,92 @@
+//Default sektion
+
+section.default__section {
+  padding: $section-padding-three;
+  background-color: $primary-color;
+  color: $white-color;
+  text-transform: uppercase;
+
+  h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+}
+//Sektioner på forsiden
+
+section.genvej__section {
+  padding: $section-padding-three;
+}
+
+section.kontakt_formular_forside {
+  background-color: $primary-color;
+  padding: $section-padding-three;
+}
+
+section.info__box__section {
+  display: none;
+  padding: $section-padding-two;
+}
+@media(min-width: 768px) {
+  section.info__box__section {
+    display: block;
+    padding: $section-padding-two;
+  }
+}
+
+//Sektioner på om os siden
+section.om-os-hero {
+  padding: $section-padding-three;
+  color: $white-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  }
+}
+@media(min-width: 580px) {
+  section.om-os-hero {
+    padding: $section-padding-two;
+  }
+}
+@media(min-width: 767px) {
+  section.om-os-hero {
+    padding: $section-padding-one;
+  }
+}
+
+section.timeline {
+  padding: $section-padding-three;
+
+  h2 {
+    font-weight: 700;
+  }
+
+  hr {
+    margin: auto auto 50px;
+  }
+}
+//Sektioner på arbejdsopgaver siden
+
+section.arb_opg__section {
+  padding: $section-padding-two;
+}
+//Sektioner på kontakt siden
+section.kontakt-os-hero {
+  padding: $section-padding-three;
+  color: $white-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  }
+}
+
+section.info__form__section {
+  padding: $section-padding-three;
+}
